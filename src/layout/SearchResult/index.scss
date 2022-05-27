@@ -1,0 +1,36 @@
+.search--result {
+  background-image: url(/assets/images/bg1.jpg);
+  &__content {
+    background-color: rgba(255, 255, 255, 0.467);
+    height: 77.5vh;
+    padding: 2% 5%;
+    margin-bottom: 1rem;
+  }
+  &__no--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+  }
+  &__toggle-icon {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.ant-layout-content {
+  min-height: 86.5vh;
+  padding: 0 23%;
+}
+.ant-card-body {
+  padding-bottom: 0%;
+  padding-top: 1%;
+}
+.ant-layout-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 0 25px !important;
+  box-shadow: 3px 16px 9px -4px rgba(0, 0, 0, 0.03);
+}

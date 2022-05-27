@@ -1,0 +1,12 @@
+.flight--card {
+  &__fare--col {
+    display: flex;
+    flex-direction: column;
+  }
+  .ant-card-body {
+    padding-left: 0%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+  }
+}

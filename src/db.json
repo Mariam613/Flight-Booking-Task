@@ -1,0 +1,179 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "leavingFrom": {
+        "id": 1,
+        "name": "Cairo"
+      },
+      "goingTo": {
+        "id": 2,
+        "name": "Roma"
+      },
+      "flightDate": "2022-06-25",
+      "departureTime": "08:05 Am",
+      "arrivalTime": "03:00 Pm",
+      "fare": 100
+    },
+    {
+      "id": 2,
+      "leavingFrom": {
+        "id": 2,
+        "name": "Roma"
+      },
+      "goingTo": {
+        "id": 1,
+        "name": "Cairo"
+      },
+      "flightDate": "2022-05-30",
+      "departureTime": "10:00 Am",
+      "arrivalTime": "01:00 Pm",
+      "fare": 100
+    },
+    {
+      "id": 3,
+      "leavingFrom": {
+        "id": 1,
+        "name": "Cairo"
+      },
+      "goingTo": {
+        "id": 4,
+        "name": "Paris"
+      },
+      "flightDate": "2022-07-1",
+      "departureTime": "08:00 Am",
+      "arrivalTime": "11:00 Pm",
+      "fare": 500
+    },
+    {
+      "id": 4,
+      "leavingFrom": {
+        "id": 1,
+        "name": "Cairo"
+      },
+      "goingTo": {
+        "id": 2,
+        "name": "Roma"
+      },
+      "flightDate": "2022-08-1",
+      "departureTime": "08:00 Am",
+      "arrivalTime": "11:00 Pm",
+      "fare": 500
+    },
+    {
+      "id": 5,
+      "leavingFrom": {
+        "id": 2,
+        "name": "Roma"
+      },
+      "goingTo": {
+        "id": 1,
+        "name": "Cairo"
+      },
+      "flightDate": "2022-09-1",
+      "departureTime": "09:00 Am",
+      "arrivalTime": "03:00 Pm",
+      "fare": 600
+    },
+    {
+      "id": 6,
+      "leavingFrom": {
+        "id": 4,
+        "name": "Paris"
+      },
+      "goingTo": {
+        "id": 2,
+        "name": "Roma"
+      },
+      "flightDate": "2022-10-1",
+      "departureTime": "09:00 Am",
+      "arrivalTime": "03:00 Pm",
+      "fare": 1000
+    },
+    {
+      "id": 7,
+      "leavingFrom": {
+        "id": 1,
+        "name": "Cairo"
+      },
+      "goingTo": {
+        "id": 3,
+        "name": "Berlin"
+      },
+      "flightDate": "2022-11-01",
+      "departureTime": "01:00 Am",
+      "arrivalTime": "03:00 Am",
+      "fare": 1000
+    },
+    {
+      "id": 8,
+      "leavingFrom": {
+        "id": 4,
+        "name": "Paris"
+      },
+      "goingTo": {
+        "id": 1,
+        "name": "Cairo"
+      },
+      "flightDate": "2022-12-01",
+      "departureTime": "08:00 Pm",
+      "arrivalTime": "11:00 Pm",
+      "fare": 10000
+    },
+    {
+      "id": 9,
+      "leavingFrom": {
+        "id": 1,
+        "name": "Cairo"
+      },
+      "goingTo": {
+        "id": 2,
+        "name": "Roma"
+      },
+      "flightDate": "2022-06-25",
+      "departureTime": "10:05 Am",
+      "arrivalTime": "01:00 Pm",
+      "fare": 500
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Cairo"
+    },
+    {
+      "id": 2,
+      "name": "Roma"
+    },
+    {
+      "id": 3,
+      "name": "Berlin"
+    },
+    {
+      "id": 4,
+      "name": "Paris"
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Egypt"
+    },
+    {
+      "id": 2,
+      "name": "Italia"
+    },
+    {
+      "id": 3,
+      "name": "Germany"
+    },
+    {
+      "id": 4,
+      "name": "France"
+    },
+    {
+      "id": 5,
+      "name": "U.S.A"
+    }
+  ]
+}
